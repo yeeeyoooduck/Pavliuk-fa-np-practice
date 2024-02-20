@@ -1,0 +1,247 @@
+{
+	"info": {
+		"_postman_id": "bee0c1fd-2a68-48c6-bcb4-405e9523bf2e",
+		"name": "ruz.fa.ru",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25206304",
+		"_collection_link": "https://planetary-rocket-752863.postman.co/workspace/71991015-f7a8-43ab-aea4-8bae81e80e55/collection/25206304-bee0c1fd-2a68-48c6-bcb4-405e9523bf2e?action=share&source=collection_link&creator=25206304"
+	},
+	"item": [
+		{
+			"name": "https://ruz.fa.ru/api/search?term=Андропов&type=person",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ruz.fa.ru/api/search?term=Андропов&type=person",
+					"protocol": "https",
+					"host": [
+						"ruz",
+						"fa",
+						"ru"
+					],
+					"path": [
+						"api",
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "Андропов"
+						},
+						{
+							"key": "type",
+							"value": "person"
+						},
+						{
+							"key": "data",
+							"value": "hi",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ruz.fa.ru/api/schedule/group/110929?start=2024.02.21&finish=2024.02.21",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ruz.fa.ru/api/schedule/group/110929?start=2024.02.21&finish=2024.02.21",
+					"protocol": "https",
+					"host": [
+						"ruz",
+						"fa",
+						"ru"
+					],
+					"path": [
+						"api",
+						"schedule",
+						"group",
+						"110929"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2024.02.21"
+						},
+						{
+							"key": "finish",
+							"value": "2024.02.21"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ruz.fa.ru/api/search?term=ПИ22-3&type=group",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ruz.fa.ru/api/search?term=ПИ22-3&type=group",
+					"protocol": "https",
+					"host": [
+						"ruz",
+						"fa",
+						"ru"
+					],
+					"path": [
+						"api",
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "ПИ22-3"
+						},
+						{
+							"key": "type",
+							"value": "group"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ruz.fa.ru/api/search?term=ауд.3310&type=auditorium",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ruz.fa.ru/api/search?term=ауд.3310&type=auditorium",
+					"protocol": "https",
+					"host": [
+						"ruz",
+						"fa",
+						"ru"
+					],
+					"path": [
+						"api",
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "ауд.3310"
+						},
+						{
+							"key": "type",
+							"value": "auditorium"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ruz.fa.ru/api/schedule/auditorium/2921?start=2024.02.21&finish=2024.02.21&lng=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ruz.fa.ru/api/schedule/auditorium/2921?start=2024.02.21&finish=2024.02.21&lng=1",
+					"protocol": "https",
+					"host": [
+						"ruz",
+						"fa",
+						"ru"
+					],
+					"path": [
+						"api",
+						"schedule",
+						"auditorium",
+						"2921"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2024.02.21"
+						},
+						{
+							"key": "finish",
+							"value": "2024.02.21"
+						},
+						{
+							"key": "lng",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ruz.fa.ru/api/search?term=Вешняковский проезд&type=building",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ruz.fa.ru/api/search?term=Вешняковский проезд&type=building",
+					"protocol": "https",
+					"host": [
+						"ruz",
+						"fa",
+						"ru"
+					],
+					"path": [
+						"api",
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "Вешняковский проезд"
+						},
+						{
+							"key": "type",
+							"value": "building"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ruz.fa.ru/api/schedule/building/51?start=2024.02.21&finish=2024.02.21&lng=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ruz.fa.ru/api/schedule/building/51?start=2024.02.21&finish=2024.02.21&lng=1",
+					"protocol": "https",
+					"host": [
+						"ruz",
+						"fa",
+						"ru"
+					],
+					"path": [
+						"api",
+						"schedule",
+						"building",
+						"51"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2024.02.21"
+						},
+						{
+							"key": "finish",
+							"value": "2024.02.21"
+						},
+						{
+							"key": "lng",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
