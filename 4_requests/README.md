@@ -1,11 +1,12 @@
 # Postman & библиотека requests
 
-Цель: написать get запросы к ruz.fa.ru
+Цель: написать клиента к ruz.fa.ru
 
 Ход работы:
 1) скачать \установить \запустить Postman
-2) импортировать \ открыть файл 4_requests/ruz.fa.ru.postman_collection.json 
+2) импортировать \ открыть в Postman файл 4_requests/ruz.fa.ru.postman_collection.json 
 3) выполнить Get-запросы
+4) найти вкладку code в Postman \ сгенерировать Python код c request
 ______
 
 # Get-запросы
