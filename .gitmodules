@@ -226,3 +226,9 @@
 [submodule "temp/6_Web_server"]
 	path = temp/6_Web_server
 	url = https://github.com/VladimirAndropov/6_Web_server
+[submodule "pi22-3/Kas"]
+	path = pi22-3/Kas
+	url = https://github.com/MashaK04/Kas/
+[submodule "pi22-4/boikova"]
+	path = pi22-4/boikova
+	url = https://github.com/boikova2604/boikova
